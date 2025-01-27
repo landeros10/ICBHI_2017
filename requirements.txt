@@ -1,0 +1,52 @@
+# Core Python libraries
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+matplotlib==3.10.0
+seaborn==0.13.2
+scikit-learn==1.6.1
+
+# Deep learning and audio processing
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+transformers==4.47.1
+torchmetrics==1.6.1
+
+# Optimization and scheduling
+torchvision==0.20.1+cu121
+torch-optimizer==0.3.0
+torch-summary==1.5.1
+torchtext==0.18.1
+wandb==0.19.4
+
+# Logging and utilities
+logging==0.5.1.2
+tqdm==4.67.1
+
+# Argument parsing and system utilities
+argparse==1.4.0
+pathlib==1.0.1
+
+# File handling and data management
+fsspec==2024.10.0
+requests==2.32.3
+joblib==1.4.2
+
+# Visualization
+plotly==5.24.1
+
+# Metrics and validation
+torchmetrics==1.6.1
+
+# Data augmentation
+albumentations==1.4.20
+
+# File reading/writing and formatting
+pillow==11.1.0
+openpyxl==3.1.5
+
+# Serialization
+jsonschema==4.23.0
+
+# Others
+jinja2==3.1.5
