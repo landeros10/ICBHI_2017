@@ -257,9 +257,6 @@ def log_training_params(config):
         },
         "Audio Processing": {
             "Clip Length (sec)": config["clip_length"],
-            "Number of Mel Filters": config["n_mels"],
-            "Hann Window Length (sec)": config["hann_window"],
-            "Window Shift (sec)": config["window_shift"],
         },
         "Training Settings": {
             "Batch Size": config["batch_size"],
@@ -273,9 +270,6 @@ def log_training_params(config):
             "Noise Directory": config["noise_dir"],
             "Noise Probability": config["noise_p"],
             "SNR (dB)": config["snr"],
-            "Time Stretch Probability": config["time_stretch_p"],
-            "Time Stretch Min Factor": config["time_stretch_min"],
-            "Time Stretch Max Factor": config["time_stretch_max"],
         },
         "Optimization": {
             "Learning Rate": config["learning_rate"],
