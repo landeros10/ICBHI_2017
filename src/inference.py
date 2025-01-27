@@ -276,7 +276,7 @@ def run_inference_file(model, device, audio_path, generate_vis=False):
                 outputs = model(waveform)
         
         predictions = torch.sigmoid(outputs.logits).detach().cpu().numpy()
-        end_time = time.time()
+        end_time = time()
         elapsed_time = end_time - start_time
         logger.info(f"[INFERENCE] - Completed inference for: {audio_path} in {elapsed_time:.2f} seconds")
 
@@ -510,7 +510,7 @@ def main():
     parser.add_argument("--debug", action="store_true", help="Enable debug logging.")
     args = parser.parse_args()
 
-    if args["debug"]:
+    if args.debug:
         logger.setLevel("DEBUG")
 
 
