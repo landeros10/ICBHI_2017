@@ -106,6 +106,20 @@ Both `labels.json` and `predictions.json` share the same structure. Each key cor
 }
 ```
 
+#### Results Visualization
+If the `--generate_vis` flag is used during inference, the script generates interpretability visualizations for the test audio files. Below you can see:
+
+- The raw audio waveform.
+- Regions of importance and attention identified by the model.
+- Segmented respiratory cycles labeled for crackles, wheezes, or both.
+
+<div align="center">
+  <br>
+  <div align="center">
+    <img src="./output.png" alt="Visualization Example" width="500">
+  </div>
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
